@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Madlibs{% endblock %}</title>
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<nav>
+    <h1>MADLIBS</h1>
+</nav>
+{% block content %} 
+
+{% endblock %}
+<form action="/madlib">
+    <label for="place">Place: </label><input type="text" name="place"><br><br>
+    <label for="noun">Noun: </label><input type="text" name="noun"><br><br>
+    <label for="verb">Verb: </label><input type="text" name="verb"><br><br>
+    <label for="adjective">Adjective: </label><input type="text" name="adjective"><br><br>
+    <label for="plural_noun">Plural Noun: </label><input type="text" name="plural_noun"><br><br>
+    <input type="submit" value="Make a Madlib!">
+</form>
+</body>
+</html>

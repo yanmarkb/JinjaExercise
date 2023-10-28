@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 75%;
+    margin: 50px 25% 0 25%;
+}
+
+form{
+    position: absolute;
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 65%;
+    margin: 50px 25% 0 25%;
+}
+
+.results{
+    text-align: center;
+}
